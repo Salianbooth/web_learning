@@ -17,25 +17,41 @@
 
         body {
             font-size: 16px;
+            font-style: normal;
         }
 
         /* 标题标签比较特殊，需要单独指定 */
 
         h2 {
             font-size: 24px;
+            font-size: 400;
 
+        }
+
+        .bold {
+            /* 加粗的效果不要带单位 */
+            /* font-weight: bold; */
+            font-weight: 700;
+        }
+
+        em {
+            font-style: normal;
         }
     </style>
 </head>
 
 <body>
     <h2>大家好</h2>
-    <p>
+    <p class="bold">
         这是一个示例 HTML 文档，在您的本地电脑上打开，可以看到这段文字的字体是黑体，字号是 24px，并且有和下划线。
         <br>
         请在您的 HTML 编辑器中对此 HTML 文档进行编辑并添加更多文字、段落、图片等元素。
-    </p>
+        <br>
 
+    </p>
+    <br>
+
+    <em>hello</em>
 </body>
 
 </html>
